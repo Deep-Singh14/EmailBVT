@@ -1,0 +1,21 @@
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: lightblue;
+    border-radius: 10px;
+  }
+
+  body {
+    padding: 20px;
+  }
+  .column1 {
+    background-color: lightpink;
+  }
+  .column3 {
+    background-color: lightseagreen;
+  }
+
+  .column1-categories {
+    background-color: lightgoldenrodyellow;
+  }
