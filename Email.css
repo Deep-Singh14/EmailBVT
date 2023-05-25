@@ -8,14 +8,109 @@
 
   body {
     padding: 20px;
+    overflow-x: hidden;
+    min-width: 340px;
   }
   .column1 {
-    background-color: lightpink;
+    background-color: rgba(255, 182, 193, 0.76);
   }
   .column3 {
     background-color: lightseagreen;
+    padding: 20px;
   }
 
   .column1-categories {
     background-color: lightgoldenrodyellow;
   }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .header-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-icon i {
+    margin-right: 5px;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #ec8989;
+  }
+
+  .search-bar input[type="text"] {
+    width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .col-md-3 {
+    background-color: #f6f6f6;
+    padding: 20px;
+  }
+
+  .compose-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .flexbox-reply-btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    color: #555;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .flexbox-reply-btn i {
+    margin-right: 5px;
+  }
+
+  .list-group-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .compose-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flexbox-reply-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

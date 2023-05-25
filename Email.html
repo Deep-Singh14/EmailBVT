@@ -7,11 +7,29 @@
   <title>Bootstrap Example</title>
   <link rel="stylesheet" href="Email.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 <body>
+  <div class="header">
+    <div class="header-icon">
+      <i class="fas fa-envelope"></i>
+      <span>EmailBVT</span>
+    </div>
+    <div>
+      <span>Deep Singh</span>
+    </div>
+  </div>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search Mail Here" style="width: 700px;">
+  </div>
+
+
   <div class="container-fluid">
     <div class="row flex-nowrap">
       <div class="col-md-3 d-none d-sm-block column1">
+        <button class="compose-btn">Compose</button>
         <div class="form-group">
           <label for="category">Categories:</label>
           <select class="form-control" id="category">
@@ -33,29 +51,36 @@
             <div class="box">
               <h4>Title 1</h4>
               <p>Description 1</p>
+              <button class="flexbox-reply-btn"><i class="fas fa-reply"></i> Reply</button>
             </div>
             <div class="box">
               <h4>Title 2</h4>
               <p>Description 2</p>
+              <button class="flexbox-reply-btn"><i class="fas fa-reply"></i> Reply</button>
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="box">
               <h4>Title 3</h4>
               <p>Description 3</p>
+              <button class="flexbox-reply-btn"><i class="fas fa-reply"></i> Reply</button>
             </div>
             <div class="box">
               <h4>Title 4</h4>
               <p>Description 4</p>
+              <button class="flexbox-reply-btn"><i class="fas fa-reply"></i> Reply</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-6 d-none d-md-block column3">
+      <div class="col-md-4 d-none d-md-block column3">
         <h1>Title</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet tellus vel orci placerat, ut blandit neque rhoncus. Aliquam vitae augue vel sapien rhoncus bibendum. Fusce sodales malesuada mauris, ac commodo dolor placerat a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer gravida urna vel turpis ultrices ultricies. Morbi non fermentum ante. Fusce eget mauris ac risus tincidunt eleifend ac non orci. Nunc vel consectetur urna.</p>
       </div>
     </div>
   </div>
 
+  
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+</body>
+</html>
